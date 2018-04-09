@@ -1,5 +1,3 @@
 def square_array(array)
-  square_array.each
+  array.each { |number| new_array << number ** 2 }
 end
-
-#array.square!
