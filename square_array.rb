@@ -3,4 +3,4 @@ def square_array(array)
   array.each { |number| new_array << number ** 2 }
 end
 
-new_array.square!
+#new_array.square!
